@@ -1,0 +1,5 @@
+# Copy to openai-local.properties and fill in the key.
+openai.api-key=replace-me
+# Optional overrides:
+# openai.base-url=https://api.openai.com/v1
+# openai.model=gpt-4o-mini

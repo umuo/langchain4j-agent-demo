@@ -1,0 +1,29 @@
+# Build output (may contain copied local credentials)
+target/
+*.class
+*.jar
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+!.env.sample
+**/*-local.properties
+**/*-local.yml
+**/*-local.yaml
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Runtime logs
+*.log
+logs/
